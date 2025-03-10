@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(112, 224, 239);
+}
+
+.profile {
+  width: 300px;
+  text-align: center;
+  border: 5px solid #121111;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f7;
+  margin-left: 525px;
+}
+
+.profileInfo {
+  padding: 20px;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #060606;
+  background-color: #747272;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #060606;
+}
+
+.tag,
+.location {
+  color: rgb(9, 9, 9);
+  font-size: 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #747272;
+}
+
+.stats li {
+  list-style: none;
+  text-align: center;
+}
+
+.stats span {
+  display: block;
+  font-weight: bold;
+}
+
+/* Friends list */
+
+.friendList {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  margin-left: 533px;
+  width: 300px;
+}
+
+.friendItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.friendItem .avatar {
+  border-radius: 50%;
+}
+
+.friendItem .name {
+  font-size: 30px;
+  font-weight: 500;
+  color: #2c3e50;
+  margin-left: 10px;
+}
+
+.friendItem .online,
+.friendItem .offline {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.friendItem .online {
+  background-color: #2ecc71;
+}
+
+.friendItem .offline {
+  background-color: #e74c3c;
+}
+
+/* Таблиця транзакцій */
+
+.transactionTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 30%;
+  color: black;
+}
+
+.transactionTable thead {
+  background-color: #030303;
+  color: white;
+  text-transform: uppercase;
+}
+
+.transactionTable th,
+.transactionTable td {
+  padding: 12px;
+  border: 2px solid #020202;
+  text-align: center;
+}
+
+.transactionTable tbody tr:nth-child(even) {
+  background-color: #a09797;
+}
